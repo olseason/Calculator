@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!--계산식 영역-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        >
+
+        <TextView
+            android:id="@+id/txtDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right|center"
+            android:textSize="80px"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:text=""
+            />
+    </LinearLayout>
+    <!--/계산식 영역-->
+
+
+    <!--버튼 1라인-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:weightSum="4"
+        android:layout_margin="0px"
+        >
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:textSize="60px"
+            android:text="7"
+            />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:textSize="60px"
+            android:text="8"
+            />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:textSize="60px"
+            android:text="9"
+            />
+
+        <Button
+            android:id="@+id/btnDiv"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:textSize="60px"
+            android:text="÷"
+            />
+
+    </LinearLayout>
+    <!--/버튼 1라인-->
+
+
+    <!--버튼 2라인-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:weightSum="4"
+        android:layout_margin="0px"
+        >
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:textSize="60px"
+            android:text="4"
+            />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:textSize="60px"
+            android:text="5"
+            />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:textSize="60px"
+            android:text="6"
+            />
+
+        <Button
+            android:id="@+id/btnTimes"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:textSize="60px"
+            android:text="×"
+            />
+
+    </LinearLayout>
+    <!--/버튼 2라인-->
+
+
+    <!--버튼 3라인-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:weightSum="4"
+        android:layout_margin="0px"
+        >
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:textSize="60px"
+            android:text="1"
+            />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:textSize="60px"
+            android:text="2"
+            />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:textSize="60px"
+            android:text="3"
+            />
+
+        <Button
+            android:id="@+id/btnMinus"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:textSize="60px"
+            android:text="-"
+            />
+
+    </LinearLayout>
+    <!--/버튼 3라인-->
+
+
+    <!--버튼 4라인-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:weightSum="4"
+        android:layout_margin="0px"
+        >
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="3.05"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:textSize="60px"
+            android:text="0"
+            />
+
+        <Button
+            android:id="@+id/btnPlus"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="0.95"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:textSize="60px"
+            android:text="+"
+            />
+
+    </LinearLayout>
+    <!--/버튼 4라인-->
+
+
+    <!--버튼 5라인-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:weightSum="4"
+        android:layout_margin="0px"
+        >
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:textSize="60px"
+            android:text="CE"
+            />
+
+        <Button
+            android:id="@+id/btnEqual"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:textSize="60px"
+            android:text="="
+            />
+
+    </LinearLayout>
+    <!--/버튼 5라인-->
+
+
+</LinearLayout>
